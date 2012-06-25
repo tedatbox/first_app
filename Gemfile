@@ -21,11 +21,11 @@ group :assets do
 end
 
 group :production do    
-    gem 'pg', '0.12.2'  
+    gem 'pg'
 end  
 
 group :development do  
-    gem 'sqlite3', '1.3.4'  
+    gem 'sqlite3'
 end
 
 gem 'jquery-rails'
