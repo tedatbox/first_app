@@ -20,12 +20,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :production do
-  gem 'pg'
+group :production do    
+    gem 'pg', '0.12.2'  
+end  
 
-end
-group :development, :test do
-  gem 'sqlite3'
+group :development do  
+    gem 'sqlite3', '1.3.4'  
 end
 
 gem 'jquery-rails'
